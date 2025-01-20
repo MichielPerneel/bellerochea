@@ -10,10 +10,10 @@ The combined csv file 'data/quantification_combined.csv' will look like this:
 
 | **Sample** | **Name** | **Length** | **EffectiveLength** | **TPM** | **NumReads** |
 |------------|----------|------------|---------------------|---------|--------------|
-| 10_21_330  | ENA|GJWO01000001|GJWO01000001.1 | 112 | 936.384  | 10 | 100 |
-| 10_21_330  | ENA|GJWO01000001|GJWO01000002.1 | 1126 | 935.384 | 20 | 200 |
-| 10_21_330  | ENA|GJWO01000001|GJWO01000003.1 | 830 | 693.384  | 30 | 300 |
-| 10_21_700  | ENA|GJWO01000001|GJWO01000001.1 | 1127 | 936.384 | 40 | 400 |
+| 10_21_330  | ENA\|GJWO01000001\|GJWO01000001.1 | 112 | 936.384  | 10 | 100 |
+| 10_21_330  | ENA\|GJWO01000001\|GJWO01000002.1 | 1126 | 935.384 | 20 | 200 |
+| 10_21_330  | ENA\|GJWO01000001\|GJWO01000003.1 | 830 | 693.384  | 30 | 300 |
+| 10_21_700  | ENA\|GJWO01000001\|GJWO01000001.1 | 1127 | 936.384 | 40 | 400 |
 | ...        | ... | ...        | ...                  | ...      | ...    |
 
 The sample names are the same as the ones covered in the samples.xlsx metadata. They can now be combined and analyzed.
