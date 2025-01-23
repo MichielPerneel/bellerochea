@@ -17,7 +17,7 @@ REF_TRANSCRIPTOME="/data/gent/vo/001/gvo00125/vsc43619/bellerochea/data/GJWO01.f
 INDEX_DIR="/data/gent/vo/001/gvo00125/vsc43619/bellerochea/data/salmon_index"
 SAMPLES_DIR="/data/gent/vo/001/gvo00125/vsc43619/bellerochea/data/samples"
 OUTPUT_DIR="/data/gent/vo/001/gvo00125/vsc43619/bellerochea/data/quantification"
-COMBINED_FILE="/data/gent/vo/001/gvo00125/vsc43619/bellerochea/data/quantification_combined.csv"
+COMBINED_FILE="/data/gent/vo/001/gvo00125/vsc43619/bellerochea/data/bellerochea_quantification.csv"
 THREADS=16
 
 # Step 1: Create the Salmon index if not already done
