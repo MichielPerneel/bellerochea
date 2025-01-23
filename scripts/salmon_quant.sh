@@ -60,7 +60,7 @@ for SAMPLE in $OUTPUT_DIR/*_quant; do
     QUANT_FILE=$SAMPLE/quant.sf
 
     if [ -f "$QUANT_FILE" ]; then
-        awk -v sample="$SAMPLE_NAME" 'NR > 1 {print sample "," $0}' $QUANT_FILE >> $COMBINED_FILE
+        awk -F'\t' -v OFS=',' -v sample="$SAMPLE_NAME" 'NR > 1 {print sample, $1, $2, $3, $4, $5}' $QUANT_FILE >> $COMBINED_FILE
     else
         echo "Warning: Missing quant.sf file for $SAMPLE_NAME, skipping."
     fi
